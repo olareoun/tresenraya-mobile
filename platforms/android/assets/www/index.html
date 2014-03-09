@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Decisiones aleatorias">
+    <meta name="author" content="olareoun">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <title>TRES EN RAYA</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>TRES EN RAYA</h1>
+                <form role="form" class="bs-example form-inline" id="add-choice">
+                    <div class="form-group">
+                        <button class="h5a-btn btn btn-warning" type="submit" id="connect">
+                            Conectar <i class="icon-signin"></i>
+                        </button>
+                        <button class="h5a-btn btn btn-warning" type="submit" id="disconnect">
+                            Desconectar <i class="icon-signin"></i>
+                        </button>
+                        <button class="h5a-btn btn btn-warning" type="submit" id="request-game">
+                            Solicitar <i class="icon-signin"></i>
+                        </button>
+                    </div>
+                </form>                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="messages-container">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="tablero-container">
+                    <div class="row">
+                        <div class="col-xs-4 casilla" id="a"></div>
+                        <div class="col-xs-4 casilla" id="b"></div>
+                        <div class="col-xs-4 casilla" id="c"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4 casilla" id="d"></div>
+                        <div class="col-xs-4 casilla" id="e"></div>
+                        <div class="col-xs-4 casilla" id="f"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4 casilla" id="g"></div>
+                        <div class="col-xs-4 casilla" id="h"></div>
+                        <div class="col-xs-4 casilla" id="i"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/app.js"></script>
+        <script src="js/templates.js"></script>
+        <script src="js/controllers.js"></script>
+        <script src="js/widgets.js"></script>
+        <script src="js/randomizer.js"></script>
+    </footer>
+</body>
+</html>
