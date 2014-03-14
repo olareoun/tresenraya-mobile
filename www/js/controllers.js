@@ -12,7 +12,7 @@
         var messages = new APP.widgets.Messages($('#messages-container'));
 
         var socket, host;
-        host = "ws://192.168.1.20:3001/";
+        host = "ws://192.168.1.22:3001/";
 
         var _connect = function() {
             try {
