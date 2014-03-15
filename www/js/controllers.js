@@ -12,7 +12,7 @@
         var messages = new APP.widgets.Messages($('#messages-container'));
 
         var socket, host;
-        host = "ws://192.168.1.22:3001/";
+        host = "wss://agile-island-2511.herokuapp.com/";
 
         var _connect = function() {
             try {
