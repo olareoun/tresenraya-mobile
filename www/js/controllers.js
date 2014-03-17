@@ -13,6 +13,7 @@
 
         var socket, host;
         host = "wss://agile-island-2511.herokuapp.com/";
+        // host = "ws://192.168.1.22:3000/";
 
         var _connect = function() {
             try {
